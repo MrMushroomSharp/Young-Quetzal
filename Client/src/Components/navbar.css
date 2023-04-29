@@ -1,0 +1,24 @@
+.navbar-cont {
+    background: linear-gradient(to left, #0CCF7B, #29CFCF);
+    padding-bottom: 2px;
+    margin-bottom: 8em;
+}
+
+.navbar {
+    background: #111112;
+    height: 3.5em;
+}
+
+.navbar h1 {
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 703px) {
+    .navbar {
+        height: 3%;
+    }
+
+    .navbar-cont {
+        margin-bottom: 18%;
+    }
+}
