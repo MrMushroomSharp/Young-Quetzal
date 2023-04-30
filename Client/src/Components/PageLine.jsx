@@ -4,7 +4,10 @@ import './components.css'
 function PageLine() {
     return (
         <>
-            <div className="arrow"></div>
+            <div className='arrow-cont'>
+                <div className="arrow" id='arrow-1'></div>
+            </div>
+
             <div className='line'>
             </div>
         </>

@@ -18,7 +18,7 @@ function Home() {
 
             <div className='process'>
                 <h1>How does it work?</h1>
-                <p>I you can contact me through <a href="">email</a> or <a href="">call</a> me and we will be able to dicuss plans and a basic concept for your site.</p>
+                <p>You can contact me through phone <a href="">call</a> or <a href="">email</a> me if I am not available. <br /> We will be able to dicuss plans and a basic concept for your site. Afterwards, we can discuss pricing and how long the site will take.</p>
             </div>
         </div>
     )
