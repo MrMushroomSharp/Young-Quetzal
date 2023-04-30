@@ -1,7 +1,19 @@
+.home {
+    margin-left: 6%;
+}
+
 .home .title h1 {
     margin: 0px;
 }
 
-.home .title {
-    margin-left: 6%;
+.apps-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 15%;
+}
+
+.apps-display h2 {
+    margin: 1em;
+    margin-left: 0px;
 }

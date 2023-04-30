@@ -1,0 +1,64 @@
+.navbar-cont {
+    background: linear-gradient(to left, #0CCF7B, #29CFCF);
+    padding-bottom: 2px;
+    margin-bottom: 8em;
+}
+
+.navbar {
+    background: #111112;
+    height: 3.5em;
+}
+
+.navbar h1 {
+    margin-bottom: 0px;
+    padding-left: 0.5em;
+    width: 10em;
+    margin-top: 0px;
+}
+
+/*PAGELINE*/
+.line {
+    width: 5px;
+    height: 50em;
+    border-right: 2px solid rgb(157, 196, 199);
+    filter: drop-shadow(0 0 0.75rem #86f9f9);
+    float: left;
+    margin-left: 2.2%;
+}
+
+.arrow {
+    height: 20px;
+    width: 20px;
+
+    border-top: 4px solid #29cfcf;
+    border-left: 4px solid #29Cfba;
+
+    transform: rotate(135deg);
+    filter: drop-shadow(0 0 0.75rem #86f9f9);
+
+    margin: 0px;
+    margin-top: 1.2em;
+    float: left;
+}
+
+@media only screen and (max-width: 856px) {
+    .arrow {
+        width: 2vw;
+        height: 2vw;
+        border-width: 0.5vw;
+        margin-top: 2.5%
+    }
+
+    .navbar {
+        height: 3%;
+    }
+
+    .navbar-cont {
+        margin-bottom: 14%;
+    }
+
+    .line {
+        margin-left: 0.5%;
+        border-width: 1px;
+    }
+}
