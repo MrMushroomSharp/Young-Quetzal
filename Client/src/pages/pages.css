@@ -11,12 +11,82 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
+    align-content: flex-end;
 }
 
 .apps-display div {
-    width: 16em;
-    height: 10em;
+    position: relative;
+    height: 18em;
+    line-height: 18em;
+
+    text-align: center;
+
+    margin: 1em;
+    margin-left: 0em;
+
+    animation-name: shake;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+.apps-display div:hover {
+    animation-play-state: running;
+}
+
+
+@keyframes shake {
+    5% {
+        transform: rotate(4deg);
+    }
+
+    10% {
+        transform: rotate(-4deg);
+    }
+
+    15% {
+        transform: rotate(4deg);
+    }
+
+    20% {
+        transform: rotate(-4deg);
+    }
+
+    35% {
+        transform: rotate(4deg);
+    }
+
+    40% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+
+
+.apps-display div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-image: url("../assets/BlockyBombs.png");
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.3;
+}
+
+.apps-display div h1 {
+    position: relative;
+    opacity: 1;
+}
+
+.apps-display div span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
 
 .process {

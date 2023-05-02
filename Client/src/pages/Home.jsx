@@ -9,10 +9,12 @@ function Home() {
                 <h1>I build games &#38; websites just like these ones.</h1>
 
                 <div className="apps-display">
-                    <div id="blocky-bombs"><h2>Blocky Bombs</h2></div>
-                    <h2>Game Dumb</h2>
-                    <h2>Game Black</h2>
-                    <h2>Game brain</h2>
+                    <div><span><h1>Blocky Blombs</h1></span></div>
+                    <div><span><h1>Blocky Blombs</h1></span></div>
+                    <div><span><h1>Blocky Blombs</h1></span></div>
+                    <div><span><h1>Blocky Blombs</h1></span></div>
+                    <div><span><h1>Blocky Blombs</h1></span></div>
+                    <div><span><h1>Blocky Blombs</h1></span></div>
                 </div>
             </div>
 
