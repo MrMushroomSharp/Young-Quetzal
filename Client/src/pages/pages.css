@@ -1,5 +1,6 @@
-.home {
+.title {
     margin-left: 6%;
+    margin-bottom: 2%;
 }
 
 .home .title h1 {
@@ -10,10 +11,15 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-bottom: 15%;
+    justify-content: center;
 }
 
-.apps-display h2 {
-    margin: 1em;
-    margin-left: 0px;
+.apps-display div {
+    width: 16em;
+    height: 10em;
+}
+
+.process {
+    margin-top: 5em;
+    margin-left: 6%;
 }
