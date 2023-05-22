@@ -7,6 +7,15 @@
     margin: 0px;
 }
 
+.home #pre-me {
+    float: left;
+}
+
+.home #me {
+    padding-left: 7.75em;
+    color: mediumaquamarine;
+}
+
 .apps-display {
     display: flex;
     flex-direction: row;
@@ -25,10 +34,16 @@
     margin: 1em;
     margin-left: 0em;
 
-    animation-name: shake;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation: thug-shake 0.3s infinite;
+
     animation-play-state: paused;
+}
+
+@media only screen and (max-width: 856px) {
+    .apps-display div {
+        height: 32vw;
+        line-height: 32vw;
+    }
 }
 
 .apps-display div:hover {
@@ -36,33 +51,15 @@
 }
 
 
-@keyframes shake {
-    5% {
+@keyframes thug-shake {
+    50% {
         transform: rotate(4deg);
     }
 
-    10% {
+    100% {
         transform: rotate(-4deg);
-    }
-
-    15% {
-        transform: rotate(4deg);
-    }
-
-    20% {
-        transform: rotate(-4deg);
-    }
-
-    35% {
-        transform: rotate(4deg);
-    }
-
-    40% {
-        -webkit-transform: rotate(0deg);
     }
 }
-
-
 
 .apps-display div::before {
     content: '';
@@ -77,6 +74,11 @@
     background-position: top center;
     opacity: 0.3;
 }
+
+.apps-display div:hover::before {
+    opacity: 0.4;
+}
+
 
 .apps-display div h1 {
     position: relative;
